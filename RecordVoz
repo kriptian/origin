@@ -1,0 +1,64 @@
+<!-- =============================================
+-- Author: Cristian Ospina Garcia
+-- Create date: 2022-05-10
+-- Description: AHTL Pagina Convertir Voz a Texto
+-- =============================================-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>GrabadorHistoria</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="EstilosRecord.css">   
+    <link rel="stylesheet" href="./00.BackCris/00.CES/03.AHTML/00.RecordVoz/EstilosRecord.css">
+    
+    <style type="text/css">
+    
+
+  .Ctexto {
+      width: 800px;
+      height: 20px;
+      margin: auto;
+      align-items: center;
+           
+  }
+
+ 
+</style>  
+
+<meta name="keywords" content="HTML, CSS, JavaScript">
+
+</head>
+
+<link rel="icon" href="C:\Users\cristianospina\OneDrive - Clinica CES\Escritorio\00.BackCris\00.CES\03.AHTML\00.RecordVoz\img\IcnM.png" type="image/png" sizes="16x16">
+ 
+
+<body background="C:\Users\cristianospina\OneDrive - Clinica CES\Escritorio\00.BackCris\00.CES\03.AHTML\00.RecordVoz\img\fondo.jpg">
+
+    <div class="banner"></div>
+
+    <div class="botones">
+        <button class="Iniciar" id="btnStartRecord">Iniciar Grabación</button>
+        <button class="Detener" id="btnStopRecord">Detener Grabacion</button>
+        <button class="Reproducir" id="playTextb">Reproducir</button>
+    </div>
+    
+    <div class="Ctexto">
+
+        <textarea id="texto" cols="80" rows="22"></textarea>
+        
+
+    </div>
+
+     <script src="index.js"></script>
+     
+    
+</body>
+
+</html>
